@@ -17,7 +17,12 @@ test('Test fizzBuzz() return "Fizz" when parameter divide by 3', function() {
     ok(fizzBuzz(12) == "Fizz", "expect 'Fizz'");
 });
 test('Test fizzBuzz() return "Buzz" when parameter divide by 5', function() { 
-	ok(fizzBuzz(5) == "Buzz", "expect 'Fizz'");
-    ok(fizzBuzz(10) == "Buzz", "expect 'Fizz'");
-    ok(fizzBuzz(25) == "Buzz", "expect 'Fizz'");
+	ok(fizzBuzz(5) == "Buzz", "expect 'Buzz'");
+    ok(fizzBuzz(10) == "Buzz", "expect 'Buzz'");
+    ok(fizzBuzz(25) == "Buzz", "expect 'Buzz'");
+});
+test('Test fizzBuzz() return "Fizz Buzz" when parameter divide by 5', function() { 
+	ok(fizzBuzz(15) == "Fizz Buzz", "expect 'Fizz Buzz'");
+    ok(fizzBuzz(30) == "Fizz Buzz", "expect 'Fizz Buzz'");
+    ok(fizzBuzz(60) == "Fizz Buzz", "expect 'Fizz Buzz'");
 });
