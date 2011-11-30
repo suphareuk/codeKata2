@@ -7,10 +7,12 @@ function convertToNum(num) {
 //fizzBuzz function 
 function fizzBuzz(testNum) {
     var fizzBuzzValue = "";
-    if (testNum % 3 === 0) {
+    if (testNum % 3 === 0 && testNum % 5 === 0) {
+        fizzBuzzValue = "Fizz Buzz";
+    } else if (testNum % 3 === 0) {
         fizzBuzzValue = "Fizz";
     } else if (testNum % 5 === 0) {
-        fizzBuzzValue = "Buzz";
+        fizzBuzzValue = "Buzz" ;
     }
     return fizzBuzzValue;
 }
