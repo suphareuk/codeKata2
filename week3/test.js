@@ -9,3 +9,10 @@ test('Test pass parameter to function convertToNum() expect only number value', 
 	ok(convertToNum(10) === 10, "expect number value");
     ok(convertToNum("5") === 5, "expect number value");
 });
+
+module('fizzBuzz Function');  
+test('Test fizzBuzz() return "Fizz" when parameter divide by 3', function() { 
+	ok(fizzBuzz(3) == "Fizz", "expect 'Fizz'");
+    ok(fizzBuzz(9) == "Fizz", "expect 'Fizz'");
+    ok(fizzBuzz(12) == "Fizz", "expect 'Fizz'");
+});
