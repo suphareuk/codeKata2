@@ -26,3 +26,11 @@ test('Test fizzBuzz() return "Fizz Buzz" when parameter divide by 3 and 5', func
     ok(fizzBuzz(30) == "Fizz Buzz", "expect 'Fizz Buzz'");
     ok(fizzBuzz(60) == "Fizz Buzz", "expect 'Fizz Buzz'");
 });
+test('Test fizzBuzz() return "Not Fizz Buzz" when parameter can not divide by 3 and 5', function() { 
+	ok(fizzBuzz(2) == "Not Fizz Buzz", "expect 'Not Fizz Buzz'");
+    ok(fizzBuzz(4) == "Not Fizz Buzz", "expect 'Not Fizz Buzz'");
+    ok(fizzBuzz(8) == "Not Fizz Buzz", "expect 'Not Fizz Buzz'");
+});
+test('Test fizzBuzz() return "Not Fizz Buzz" when parameter is 0', function() { 
+	ok(fizzBuzz(0) == "Not Fizz Buzz", "expect 'Not Fizz Buzz'");
+});
