@@ -9,6 +9,8 @@ function fizzBuzz(testNum) {
     var fizzBuzzValue = "";
     if (testNum % 3 === 0) {
         fizzBuzzValue = "Fizz";
+    } else if (testNum % 5 === 0) {
+        fizzBuzzValue = "Buzz";
     }
     return fizzBuzzValue;
 }
