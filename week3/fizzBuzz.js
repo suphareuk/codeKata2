@@ -23,3 +23,13 @@ function fizzBuzz(testNum) {
     
     return fizzBuzzValue;
 }
+
+//callFizzBuzz function
+function callFizzBuzz(maxNum) {
+    maxNum = convertToNum(maxNum);
+    for (var i = 0; i <= maxNum; i++) {
+        console.log('Number ' + i + ' is : ' + fizzBuzz(i));
+    }
+}
+
+callFizzBuzz(100);
