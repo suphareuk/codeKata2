@@ -16,3 +16,8 @@ test('Test fizzBuzz() return "Fizz" when parameter divide by 3', function() {
     ok(fizzBuzz(9) == "Fizz", "expect 'Fizz'");
     ok(fizzBuzz(12) == "Fizz", "expect 'Fizz'");
 });
+test('Test fizzBuzz() return "Buzz" when parameter divide by 5', function() { 
+	ok(fizzBuzz(5) == "Buzz", "expect 'Fizz'");
+    ok(fizzBuzz(10) == "Buzz", "expect 'Fizz'");
+    ok(fizzBuzz(25) == "Buzz", "expect 'Fizz'");
+});
