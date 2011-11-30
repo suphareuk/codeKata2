@@ -6,5 +6,9 @@ function convertToNum(num) {
 
 //fizzBuzz function 
 function fizzBuzz(testNum) {
-    return testNum;
+    var fizzBuzzValue = "";
+    if (testNum % 3 === 0) {
+        fizzBuzzValue = "Fizz";
+    }
+    return fizzBuzzValue;
 }
